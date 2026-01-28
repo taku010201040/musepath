@@ -9,13 +9,13 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-    title: "MusePath - あなたの可能性を見つける",
+    title: "EduPath - あなたの可能性を見つける",
     description: "AI搭載型SNSで、あなたの潜在的な興味・関心を発見し、最適な学びと進路を提案します",
     manifest: "/manifest.json",
     appleWebApp: {
         capable: true,
         statusBarStyle: "default",
-        title: "MusePath",
+        title: "EduPath",
     },
 };
 
