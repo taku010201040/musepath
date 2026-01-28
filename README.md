@@ -1,10 +1,10 @@
-# MusePath（ミューズパス）
+# EduPath（エデュパス）
 
 AIを活用した学生支援プラットフォーム - 京都産業大学向け
 
 ## 概要
 
-**MusePath**は、学生の日常的な投稿やAIとの対話を分析し、潜在的な興味・関心を発見することで、最適な履修科目とキャリアパスを提案するAI搭載型SNSプラットフォームです。
+**EduPath**は、学生の日常的な投稿やAIとの対話を分析し、潜在的な興味・関心を発見することで、最適な履修科目とキャリアパスを提案するAI搭載型SNSプラットフォームです。
 
 ### 主な機能
 
@@ -60,7 +60,7 @@ npm start
 ## プロジェクト構成
 
 ```
-musepath/
+edupath/
 ├── app/                      # Next.js App Router
 │   ├── layout.tsx           # ルートレイアウト
 │   ├── page.tsx             # ランディングページ
@@ -129,7 +129,7 @@ musepath/
 
 ## ライセンス
 
-© 2026 MusePath. All rights reserved.
+© 2026 EduPath. All rights reserved.
 
 ## お問い合わせ
 

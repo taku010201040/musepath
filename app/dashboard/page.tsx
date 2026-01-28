@@ -158,7 +158,7 @@ export default function Dashboard() {
                 if (allTags.includes('データ分析') && allTags.includes('デザイン')) {
                     analysis = "これまでの投稿傾向から、「データ分析」と「デザイン」の両方に強い関心があることがわかります。この2つを組み合わせた「データビジュアライゼーション」や「UXリサーチ」といった分野は、あなたにとって非常に有望なキャリアパスになるでしょう。";
                 } else if (allTags.filter(t => ['悩み', '迷い', 'キャリア'].includes(t)).length >= 2) {
-                    analysis = "最近の投稿から、将来のキャリアについて深く思考している様子が伺えます。悩みは成長の証です。興味のある分野の先輩や先生に話を聞いてみるのも良い転機になるかもしれません。";
+                    analysis = "最近の投稿から、将来のキャリアについて深く思考している様子が伺えます。悩みは成長の証です。EduPathの「キャリア相談チャット」で、具体的な悩みを少し言語化してみませんか？考えが整理されるかもしれません。";
                 } else if (updatedPosts.length >= 5) {
                     analysis = `継続的に学習ログを記録できていますね！特に「${topInterests}」に関するトピックが多く、あなたの専門性がこの方向に育ちつつあることがデータから読み取れます。`;
                 }
@@ -181,9 +181,9 @@ export default function Dashboard() {
                 <div className="max-w-md w-full glass-dark rounded-2xl p-8">
                     <div className="text-center mb-8">
                         <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center text-white text-3xl font-bold mb-4">
-                            M
+                            E
                         </div>
-                        <h1 className="text-3xl font-bold text-white mb-2">ようこそ MusePath へ</h1>
+                        <h1 className="text-3xl font-bold text-white mb-2">ようこそ EduPath へ</h1>
                         <p className="text-gray-300">まずはあなたのプロフィールを教えてください</p>
                     </div>
 
@@ -273,7 +273,7 @@ export default function Dashboard() {
                 <div className="max-w-7xl mx-auto px-4 py-4">
                     <div className="flex items-center justify-between">
                         <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-                            MusePath
+                            EduPath
                         </h1>
                         <div className="flex items-center gap-4">
                             <button className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center text-white font-semibold">

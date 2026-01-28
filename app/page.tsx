@@ -22,7 +22,7 @@ export default function Home() {
                         transition={{ duration: 0.8 }}
                     >
                         <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400">
-                            MusePath
+                            EduPath
                         </h1>
                         <p className="text-3xl md:text-4xl font-semibold text-white mb-4">
                             あなたの可能性を見つける
